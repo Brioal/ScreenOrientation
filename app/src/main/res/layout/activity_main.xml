@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.brioal.screenorientation.MainActivity">
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="2"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="unspecified"
+            android:text="unspecified"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="landscape"
+            android:text="landscape"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="portrait"
+            android:text="portrait"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="user"
+            android:text="user"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="behind"
+            android:text="behind"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="sensor"
+            android:text="sensor"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="nosensor"
+            android:text="nosensor"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="sensorLandscape"
+            android:text="sensorLandscape"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="sensorPortrait"
+            android:text="sensorPortrait"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="reverseLandscape"
+            android:text="reverseLandscape"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="reversePortrait"
+            android:text="reversePortrait"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="fullSensor"
+            android:text="fullSensor"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="userLandscape"
+            android:text="userLandscape"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="userPortrait"
+            android:text="userPortrait"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="fullUser"
+            android:text="fullUser"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:onClick="locked"
+            android:text="locked"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+
+    </GridLayout>
+</RelativeLayout>

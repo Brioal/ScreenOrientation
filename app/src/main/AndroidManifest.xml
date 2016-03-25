@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brioal.screenorientation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".unspecified"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".landscape"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".portrait"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user"
+            android:screenOrientation="user" />
+        <activity
+            android:name=".behind"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".sensor"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".nosensor"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".sensorLandscape"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".sensorPortrait"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".reverseLandscape"
+            android:screenOrientation="reverseLandscape" />
+        <activity
+            android:name=".reversePortrait"
+            android:screenOrientation="reversePortrait" />
+        <activity
+            android:name=".fullSensor"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".userLandscape"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".userPortrait"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".fullUser"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".locked"
+            android:screenOrientation="locked" />
+    </application>
+
+</manifest>
